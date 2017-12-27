@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A40548AA1FF3450000B678EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40548A91FF3450000B678EB /* AppDelegate.swift */; };
+		A40548AC1FF3450000B678EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40548AB1FF3450000B678EB /* ViewController.swift */; };
+		A40548AF1FF3450000B678EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40548AD1FF3450000B678EB /* Main.storyboard */; };
+		A40548B11FF3450000B678EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40548B01FF3450000B678EB /* Assets.xcassets */; };
+		A40548B41FF3450000B678EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40548B21FF3450000B678EB /* LaunchScreen.storyboard */; };
+		A40548BF1FF3450000B678EB /* MinionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40548BE1FF3450000B678EB /* MinionsTests.swift */; };
+		A40548CA1FF3450000B678EB /* MinionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40548C91FF3450000B678EB /* MinionsUITests.swift */; };
+		A40548D91FF39EAC00B678EB /* minions.png in Resources */ = {isa = PBXBuildFile; fileRef = A40548D81FF39EAC00B678EB /* minions.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40548BB1FF3450000B678EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A405489E1FF3450000B678EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40548A51FF3450000B678EB;
+			remoteInfo = Minions;
+		};
+		A40548C61FF3450000B678EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A405489E1FF3450000B678EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40548A51FF3450000B678EB;
+			remoteInfo = Minions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A40548A61FF3450000B678EB /* Minions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40548A91FF3450000B678EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A40548AB1FF3450000B678EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A40548AE1FF3450000B678EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A40548B01FF3450000B678EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40548B31FF3450000B678EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A40548B51FF3450000B678EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40548BA1FF3450000B678EB /* MinionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40548BE1FF3450000B678EB /* MinionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionsTests.swift; sourceTree = "<group>"; };
+		A40548C01FF3450000B678EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40548C51FF3450000B678EB /* MinionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40548C91FF3450000B678EB /* MinionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionsUITests.swift; sourceTree = "<group>"; };
+		A40548CB1FF3450000B678EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40548D81FF39EAC00B678EB /* minions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minions.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40548A31FF3450000B678EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40548B71FF3450000B678EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40548C21FF3450000B678EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A405489D1FF3450000B678EB = {
+			isa = PBXGroup;
+			children = (
+				A40548A81FF3450000B678EB /* Minions */,
+				A40548BD1FF3450000B678EB /* MinionsTests */,
+				A40548C81FF3450000B678EB /* MinionsUITests */,
+				A40548A71FF3450000B678EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A40548A71FF3450000B678EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40548A61FF3450000B678EB /* Minions.app */,
+				A40548BA1FF3450000B678EB /* MinionsTests.xctest */,
+				A40548C51FF3450000B678EB /* MinionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40548A81FF3450000B678EB /* Minions */ = {
+			isa = PBXGroup;
+			children = (
+				A40548D81FF39EAC00B678EB /* minions.png */,
+				A40548A91FF3450000B678EB /* AppDelegate.swift */,
+				A40548AB1FF3450000B678EB /* ViewController.swift */,
+				A40548AD1FF3450000B678EB /* Main.storyboard */,
+				A40548B01FF3450000B678EB /* Assets.xcassets */,
+				A40548B21FF3450000B678EB /* LaunchScreen.storyboard */,
+				A40548B51FF3450000B678EB /* Info.plist */,
+			);
+			path = Minions;
+			sourceTree = "<group>";
+		};
+		A40548BD1FF3450000B678EB /* MinionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A40548BE1FF3450000B678EB /* MinionsTests.swift */,
+				A40548C01FF3450000B678EB /* Info.plist */,
+			);
+			path = MinionsTests;
+			sourceTree = "<group>";
+		};
+		A40548C81FF3450000B678EB /* MinionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A40548C91FF3450000B678EB /* MinionsUITests.swift */,
+				A40548CB1FF3450000B678EB /* Info.plist */,
+			);
+			path = MinionsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40548A51FF3450000B678EB /* Minions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40548CE1FF3450000B678EB /* Build configuration list for PBXNativeTarget "Minions" */;
+			buildPhases = (
+				A40548A21FF3450000B678EB /* Sources */,
+				A40548A31FF3450000B678EB /* Frameworks */,
+				A40548A41FF3450000B678EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Minions;
+			productName = Minions;
+			productReference = A40548A61FF3450000B678EB /* Minions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A40548B91FF3450000B678EB /* MinionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40548D11FF3450000B678EB /* Build configuration list for PBXNativeTarget "MinionsTests" */;
+			buildPhases = (
+				A40548B61FF3450000B678EB /* Sources */,
+				A40548B71FF3450000B678EB /* Frameworks */,
+				A40548B81FF3450000B678EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40548BC1FF3450000B678EB /* PBXTargetDependency */,
+			);
+			name = MinionsTests;
+			productName = MinionsTests;
+			productReference = A40548BA1FF3450000B678EB /* MinionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A40548C41FF3450000B678EB /* MinionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40548D41FF3450000B678EB /* Build configuration list for PBXNativeTarget "MinionsUITests" */;
+			buildPhases = (
+				A40548C11FF3450000B678EB /* Sources */,
+				A40548C21FF3450000B678EB /* Frameworks */,
+				A40548C31FF3450000B678EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40548C71FF3450000B678EB /* PBXTargetDependency */,
+			);
+			name = MinionsUITests;
+			productName = MinionsUITests;
+			productReference = A40548C51FF3450000B678EB /* MinionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A405489E1FF3450000B678EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = gyd;
+				TargetAttributes = {
+					A40548A51FF3450000B678EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					A40548B91FF3450000B678EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A40548A51FF3450000B678EB;
+					};
+					A40548C41FF3450000B678EB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A40548A51FF3450000B678EB;
+					};
+				};
+			};
+			buildConfigurationList = A40548A11FF3450000B678EB /* Build configuration list for PBXProject "Minions" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A405489D1FF3450000B678EB;
+			productRefGroup = A40548A71FF3450000B678EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40548A51FF3450000B678EB /* Minions */,
+				A40548B91FF3450000B678EB /* MinionsTests */,
+				A40548C41FF3450000B678EB /* MinionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40548A41FF3450000B678EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40548B41FF3450000B678EB /* LaunchScreen.storyboard in Resources */,
+				A40548B11FF3450000B678EB /* Assets.xcassets in Resources */,
+				A40548AF1FF3450000B678EB /* Main.storyboard in Resources */,
+				A40548D91FF39EAC00B678EB /* minions.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40548B81FF3450000B678EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40548C31FF3450000B678EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40548A21FF3450000B678EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40548AC1FF3450000B678EB /* ViewController.swift in Sources */,
+				A40548AA1FF3450000B678EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40548B61FF3450000B678EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40548BF1FF3450000B678EB /* MinionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40548C11FF3450000B678EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40548CA1FF3450000B678EB /* MinionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A40548BC1FF3450000B678EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40548A51FF3450000B678EB /* Minions */;
+			targetProxy = A40548BB1FF3450000B678EB /* PBXContainerItemProxy */;
+		};
+		A40548C71FF3450000B678EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40548A51FF3450000B678EB /* Minions */;
+			targetProxy = A40548C61FF3450000B678EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A40548AD1FF3450000B678EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40548AE1FF3450000B678EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A40548B21FF3450000B678EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40548B31FF3450000B678EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40548CC1FF3450000B678EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A40548CD1FF3450000B678EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40548CF1FF3450000B678EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZZD9JNU3F;
+				INFOPLIST_FILE = Minions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyd.Minions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40548D01FF3450000B678EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BZZD9JNU3F;
+				INFOPLIST_FILE = Minions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyd.Minions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A40548D21FF3450000B678EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyd.MinionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minions.app/Minions";
+			};
+			name = Debug;
+		};
+		A40548D31FF3450000B678EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyd.MinionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Minions.app/Minions";
+			};
+			name = Release;
+		};
+		A40548D51FF3450000B678EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyd.MinionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Minions;
+			};
+			name = Debug;
+		};
+		A40548D61FF3450000B678EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MinionsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gyd.MinionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Minions;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40548A11FF3450000B678EB /* Build configuration list for PBXProject "Minions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40548CC1FF3450000B678EB /* Debug */,
+				A40548CD1FF3450000B678EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40548CE1FF3450000B678EB /* Build configuration list for PBXNativeTarget "Minions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40548CF1FF3450000B678EB /* Debug */,
+				A40548D01FF3450000B678EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40548D11FF3450000B678EB /* Build configuration list for PBXNativeTarget "MinionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40548D21FF3450000B678EB /* Debug */,
+				A40548D31FF3450000B678EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40548D41FF3450000B678EB /* Build configuration list for PBXNativeTarget "MinionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40548D51FF3450000B678EB /* Debug */,
+				A40548D61FF3450000B678EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A405489E1FF3450000B678EB /* Project object */;
+}
